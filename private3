@@ -2,7 +2,7 @@ local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ki
 local Notify = AkaliNotif.Notify;
 
 if getgenv().Fingsloaded == true then
-    if getgenv().Haunts.Options.Notifications == true then
+    if getgenv().Fings.Options.Notifications == true then
 
 Notify({
 Description = "Settings From Script Updated.";
