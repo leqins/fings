@@ -1,8 +1,8 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 
-if getgenv().Hauntsloaded == true then
-    if getgenv().Haunts.Options.Notifications == true then
+if getgenv().Fingsloaded == true then
+    if getgenv().Fings.Options.Notifications == true then
 
 Notify({
 Description = "Settings From Script Updated.";
@@ -12,9 +12,9 @@ Duration = 1.5;
         return
     end
     end
-    getgenv().Hauntsloaded = true
+    getgenv().Fingsloaded = true
     
-    if getgenv().Haunts.Options.Notifications == true then
+    if getgenv().Fings.Options.Notifications == true then
 
 Notify({
 Description = "Script Loading...";
