@@ -6,7 +6,7 @@ if getgenv().Hauntsloaded == true then
 
 Notify({
 Description = "Settings From Script Updated.";
-Title = "Haunts";
+Title = "Fings";
 Duration = 1.5;
 });
         return
@@ -18,13 +18,13 @@ Duration = 1.5;
 
 Notify({
 Description = "Script Loading...";
-Title = "Haunts";
+Title = "Fings";
 Duration = 1.5;
 });
 wait(2)
 Notify({
 Description = "Script Loaded Enjoy!";
-Title = "Haunts";
+Title = "Fings";
 Duration = 1.5;
 });
 end
